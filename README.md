@@ -12,11 +12,14 @@ Usage of **PolleyThePhisher** for attacking targets without prior mutual consent
 * **Docker Support:** Ready to run in a containerized environment for better isolation.
 * **Automated Scripts:** Includes easy-to-use launch and setup scripts.
 * **Mobile Compatible:** Optimized for Kali Linux / NetHunter environments.
+  
 ## Install Dependencies
 
-#
+
 sudo apt install php curl wget
+
 git unzip -y
+
 ---
 
 ## 🛠️ Installation
