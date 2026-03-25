@@ -1,7 +1,7 @@
 
 # PolleyThePhisher 🎣
 
-A multi-purpose phishing toolkit designed for security research and educational purposes. This tool features various templates for popular social and web platforms.
+A multi-purpose phishing toolkit designed for security research and educational purposes. This tool features various templates for popular social and web platforms. It can be used in linux, android, ios also.
 ![Screenshot_20260325_221541_Termux](https://github.com/user-attachments/assets/cfddc744-0052-4c7a-9289-f9c0ff40a15b)
 
 ## ⚠️ Legal Disclaimer
