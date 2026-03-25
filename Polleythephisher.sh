@@ -134,7 +134,7 @@ banner() {
 		${ORANGE}                                                 
 		${ORANGE}      Polleythephisher   ${RED}Version : ${__version__}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Modified by Ankon Polley${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Made by Ankon Polley${WHITE}
 	EOF
 }
 
