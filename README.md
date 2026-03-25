@@ -49,7 +49,7 @@ chmod +x Polleythephisher.sh run_docker.sh scripts/launch.sh
 chmod +x Polleythephisher.sh
 
 ## Now, Run it
-./Polleythephisher or bash Polleythephisher.sh
+./Polleythephisher.sh or bash Polleythephisher.sh
 
 ## For Link failure 
 Run With Cloudflare
