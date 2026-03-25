@@ -12,7 +12,7 @@ RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033
 WHITE="$(printf '\033[37m')" CYAN="$(printf '\033[36m')"
 
 # Check for a newer release from your repo
-check_update(){
+#check_update(){
 	echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Checking for update : "
 	relase_url='https://api.github.com/repos/anknpolley123/Polleythephisher/releases/latest'
 	new_version=$(curl -s "${relase_url}" | grep '"tag_name":' | awk -F\" '{print $4}')
