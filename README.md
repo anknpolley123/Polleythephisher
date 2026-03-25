@@ -13,6 +13,14 @@ Usage of **PolleyThePhisher** for attacking targets without prior mutual consent
 * **Docker Support:** Ready to run in a containerized environment for better isolation.
 * **Automated Scripts:** Includes easy-to-use launch and setup scripts.
 * **Mobile Compatible:** Optimized for Kali Linux / NetHunter environments.
+
+
+  ## Contact
+  For any Further Information, Please mail me on ankonpolley@proton.me.com
+  Or Please Message me in Instagram: @itz_vorzhevik_volnyshev
+  alt: @itz_ankon_polley
+  Support Me on Twitter'X': @AnkonPolley
+  And In Pinterest: https://pin.it/33E6z0Fld
   
 ## Install Dependencies
 
@@ -29,7 +37,7 @@ To get started, clone the repository and set the permissions:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/anknpolley123/Polleythephisher.git](https://github.com/anknpolley123/Polleythephisher.git)
+git clone https://github.com/anknpolley123/Polleythephisher.git
 
 # Enter the directory
 cd Polleythephisher
