@@ -61,6 +61,8 @@ wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudfla
 
 sudo dpkg -i cloudflared-linux-amd64.deb
 
+chmod +x cloudflared-linux-amd64.deb
+
 sudo apt --fix-broken install -y
 
 # Run A Temporary Server
@@ -72,6 +74,8 @@ cloudflared tunnel --url http://localhost:8080
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
 
 sudo dpkg -i cloudflared-linux-arm64.deb
+
+chmod +x cloudflared-linux-arm64.deb
 
 sudo apt --fix-broken install -y
 # Run a Temporary Server 
