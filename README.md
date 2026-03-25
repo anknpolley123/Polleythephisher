@@ -2,6 +2,7 @@
 # PolleyThePhisher 🎣
 
 A multi-purpose phishing toolkit designed for security research and educational purposes. This tool features various templates for popular social and web platforms.
+![Screenshot_20260325_221541_Termux](https://github.com/user-attachments/assets/cfddc744-0052-4c7a-9289-f9c0ff40a15b)
 
 ## ⚠️ Legal Disclaimer
 Usage of **PolleyThePhisher** for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
