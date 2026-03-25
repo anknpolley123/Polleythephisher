@@ -12,20 +12,9 @@ RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033
 WHITE="$(printf '\033[37m')" CYAN="$(printf '\033[36m')"
 
 # Check for a newer release from your repo
-#check_update(){
-	echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Checking for update : "
-	relase_url='https://api.github.com/repos/anknpolley123/Polleythephisher/releases/latest'
-	new_version=$(curl -s "${relase_url}" | grep '"tag_name":' | awk -F\" '{print $4}')
-	tarball_url="https://github.com/anknpolley123/Polleythephisher/archive/refs/tags/${new_version}.tar.gz"
-
-	if [[ $new_version != $__version__ && ! -z "$new_version" ]]; then
-		echo -ne "${ORANGE}update found\n"${WHITE}
-		# ... update logic ...
-	else
-		echo -ne "${GREEN}up to date\n${WHITE}" ; sleep .5
-	fi
+#check_update() {
+    echo -e "Checking for updates... skipped."
 }
-
 ## Banner
 banner() {
 	cat <<- EOF
