@@ -1,6 +1,3 @@
-#(In Progress)
-
-##(Do not use this git tool until the word progress is being erased)
 
 # PolleyThePhisher 🎣
 
@@ -45,3 +42,31 @@ chmod +x Polleythephisher.sh
 
 ## Now, Run it
 ./Polleythephisher or bash Polleythephisher.sh
+
+## For Link failure 
+Run With Cloudflare
+
+## Install cloudflare
+# For Amd64
+
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb 
+
+sudo dpkg -i cloudflared-linux-amd64.deb
+
+sudo apt --fix-broken install -y
+
+# Run A Temporary Server
+
+cloudflared tunnel --url http://localhost:8080
+
+## For Arm64
+
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+
+sudo dpkg -i cloudflared-linux-arm64.deb
+
+sudo apt --fix-broken install -y
+# Run a Temporary Server 
+
+cloudflared tunnel --url http://localhost:8080
+
