@@ -35,5 +35,9 @@ cd Polleythephisher
 
 # Give execution permissions
 chmod +x Polleythephisher.sh run_docker.sh scripts/launch.sh
+
+# Give one more permission
+chmod +x Polleythephisher.sh
+
 ## Now, Run it
-./Polleythephisher
+./Polleythephisher or bash Polleythephisher.sh
