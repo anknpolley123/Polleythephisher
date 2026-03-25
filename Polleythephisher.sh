@@ -13,8 +13,8 @@ WHITE="$(printf '\033[37m')" CYAN="$(printf '\033[36m')"
 
 # Check for a newer release from your repo
 #check_update() {
-    echo -e "Update check bypassed."
-}
+#    echo -e "Update check bypassed."
+#}
 ## Banner
 banner() {
 	cat <<- EOF
